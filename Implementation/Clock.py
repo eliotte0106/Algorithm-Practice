@@ -1,8 +1,8 @@
 '''
-From the input N,
+From the input N(0~23),
 find the count of number of time that includes 3 from 00:00:00 to N:59:59
 '''
-
+#Brute Force
 n = int(input("Enter the time: "))
 count = 0
 for i in range(0,n+1):
