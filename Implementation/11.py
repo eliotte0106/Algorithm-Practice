@@ -49,7 +49,7 @@ def simulate():
             if data[nx][ny] == 1: 
                 data[nx][ny] = 2
                 q.append((nx,ny))
-            #if snake meets the wall, crush\
+            #if snake meets the wall, crash
         else:
             time += 1
             break
