@@ -27,8 +27,8 @@ for i in range(l):
 for i in range(len(b)):
     array2.append(b[i])
 
-for x in array:
-    if x not in array2:
+for i in range(len(array)):
+    if array[i] != array2[i]:
         count += 1
 
 print(count)
