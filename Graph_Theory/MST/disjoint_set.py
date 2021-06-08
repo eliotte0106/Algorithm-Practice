@@ -1,3 +1,6 @@
+#use tree data structure to find disjoint_sets
+#smaller node becomes the root node
+
 #find the set that includes a particular element
 def find_parent(parent, x):
     #if not a root node, recursive call until find the root node
@@ -28,6 +31,7 @@ for i in range(e):
     union_parent(parent,a,b)
 
 #print the set that each element in included
+# + important thing is from calling find_parent in this loop, checks the parent table again and finalize the parent table. +
 print("set of each element: ", end='')
 for i in range(1,v+1):
     print(find_parent(parent,i),end=' ')
