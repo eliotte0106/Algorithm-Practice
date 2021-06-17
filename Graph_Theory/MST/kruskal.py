@@ -1,3 +1,5 @@
+#runtime : O(ElogE) , E = # of edge
+
 #find a set of a particular element
 def find_parent(parent, x):
     if parent[x] != x:
