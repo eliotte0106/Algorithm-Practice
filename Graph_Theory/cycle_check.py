@@ -1,3 +1,8 @@
+'''
+cycle_check works for undirected graph.
+For directed graph, cycle check can be checked by using DFS.
+'''
+
 #find the set of a particular element
 def find_parent(parent,x):
     if parent[x] != x :
