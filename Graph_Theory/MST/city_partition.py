@@ -18,6 +18,7 @@ v,e = map(int,input().split())
 
 edges = []
 result = 0
+parent = [0] * (v+1)
 
 for i in range(1,v+1):
     parent[i] = i
