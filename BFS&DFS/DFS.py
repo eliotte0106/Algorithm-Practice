@@ -1,4 +1,5 @@
-#DFS: use Stack (LIFO), O(N), N = # of vertex
+#DFS: use Stack (LIFO) + Recursion 
+#O(N), N = # of vertex
 
 def dfs(graph, v, visited):
     # current node visited
