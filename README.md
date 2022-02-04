@@ -1,1 +1,1 @@
-Coding Interview Practice using Python
+Practicing Algorithms
