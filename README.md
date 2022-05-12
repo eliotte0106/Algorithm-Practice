@@ -1,4 +1,4 @@
-**Practicing Algorithms**
+**Practicing Algorithms Using Python**
 1. Greedy
 2. Implementation
 3. Sorting
